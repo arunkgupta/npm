@@ -6,13 +6,7 @@ npm-debug.log
 /test/packages/npm-test-depends-on-spark/which-spark.log
 /test/packages/test-package/random-data.txt
 /test/root
-/node_modules/ronn
-/node_modules/tap
-/node_modules/nock
 /node_modules/.bin
-/node_modules/npm-registry-mock
-/node_modules/marked
-/html/api/
 /html/doc/
 /man/
 /doc/*/npm-index.md
@@ -20,5 +14,21 @@ npm-debug.log
 /release/
 /npm-*.tgz
 /node_modules/npm-registry-client/test/fixtures
+/test/fixtures/config/userconfig-with-gc
 /node_modules/npm-registry-couchapp
 *.pyc
+.jshintrc
+.eslintrc
+
+# dev dependencies
+/node_modules/deep-equal/
+/node_modules/marked/
+/node_modules/marked-man/
+/node_modules/nock/
+/node_modules/npm-registry-couchapp/
+/node_modules/npm-registry-mock/
+/node_modules/require-inject/
+/node_modules/sprintf-js/
+/node_modules/standard/
+/node_modules/tap/
+/node_modules/tacks/
